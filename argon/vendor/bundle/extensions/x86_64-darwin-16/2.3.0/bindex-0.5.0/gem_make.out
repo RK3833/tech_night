@@ -1,0 +1,15 @@
+current directory: /Users/rad37458/Documents/tech_night/argon/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/Users/rad37458/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20180902-85640-gi7yin.rb extconf.rb
+creating Makefile
+
+current directory: /Users/rad37458/Documents/tech_night/argon/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/rad37458/Documents/tech_night/argon/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/rad37458/Documents/tech_night/argon/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20180902-85640-cq4k7p/bindex
