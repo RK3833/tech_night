@@ -1,7 +1,24 @@
-# tech_night
-v1 TechNightで運用できる
-due: 2018/9/9
-Rails version: 
-Ruby version:
-## License
-Copyright (C) 2018 TTN member & other contributors
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
