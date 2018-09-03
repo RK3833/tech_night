@@ -20,3 +20,5 @@ doc/
 .DS_Store
 .idea
 .secret
+tmp/cache/bootsnap-load-path-cache
+.ruby-version
