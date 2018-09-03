@@ -38,6 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # カラム名をコメントアウトで表示
 gem 'annotate'
+# railsプログラム内で、slimファイルを作成し、使用することが可能になる
+gem 'slim-rails'
 
 #emailのvalidation
 gem 'email_validator'
