@@ -17,5 +17,5 @@
 class User < ApplicationRecord
   validates name, presence: true, length: { minimum: 3 }
   validates email: true
-  enum status: { admin: 1, speaker: 2, participant: 3 }
+  enum status: { participant: 1, speaker: 2, admin: 3 }
 end
