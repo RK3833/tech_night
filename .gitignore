@@ -22,3 +22,4 @@ doc/
 .secret
 tmp/cache/bootsnap-load-path-cache
 .ruby-version
+log/development.log
