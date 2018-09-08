@@ -20,6 +20,11 @@ doc/
 .DS_Store
 .idea
 .secret
+
+
+# Ignore node_module
+node_modules/
+
 tmp/cache/bootsnap-load-path-cache
 .ruby-version
 log/development.log
