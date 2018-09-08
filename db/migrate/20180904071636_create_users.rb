@@ -7,7 +7,7 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.text :profile_content
       t.string :email, unique: true, null: false
       t.string :password_digest, null: false
-      t.string :birthday
+      t.date :birthday
       t.timestamps
     end
   end
