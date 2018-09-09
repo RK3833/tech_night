@@ -13,13 +13,18 @@ module.exports = {
     filename: 'bundle.js',
   },
   module: {
-    loaders: [
-      { test: /\.jsx?$/, enforce: 'pre', exclude: /node_modules/, loader: 'eslint-loader' },
-      { test: /\.jsx?$/, exclude: /node_modules/, loaders: ['babel-loader'] },
-    ],
+    rules: [{
+      test: /\.js$/,
+      exclude: /node_modules/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['react'],
+        },   
+    }],
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    modules: [path.join(__dirname, 'src')],
+    extensions: ['*','.js', '.jsx'],
   },
   plugins: [
     new HtmlWebpackPlugin({
